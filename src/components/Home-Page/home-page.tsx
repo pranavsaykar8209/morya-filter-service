@@ -14,14 +14,14 @@ const HomePage = () => {
   return (
     <div>
       <div
-        className="container d-flex justify-content-between align-items-center"
+        className="container d-flex justify-content-between align-items-center flex-md-row flex-column"
         style={{
-          height: "50vh",
+          minHeight: "70vh",
           padding: "20px",
         }}
       >
-        <div className="right w-50">
-          <h1 style={{ color: "#081f46", fontSize: "4rem" }}>
+        <div className="right w-100 mb-4">
+          <h1 style={{ color: "#081f46" }} className="fs-md-120 fs-sm-2">
             {HomeHeadingData[count].Title}
           </h1>
           <h2 style={{ color: "#379eff", fontSize: "2rem" }}>
