@@ -6,7 +6,6 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         Morya Suppier
-        {/* Buttons */}
         <div className="ml-auto d-flex align-items-center">
           <Link to="/button1" className="btn btn-primary  me-4">
             Home
