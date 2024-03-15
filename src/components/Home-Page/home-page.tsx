@@ -21,19 +21,19 @@ const HomePage = () => {
         }}
       >
         <div className="right w-100 mb-4">
-          <h1 style={{ color: "#081f46" }} className="fs-md-120 fs-sm-2">
+          <h1 style={{ color: "#081f46" }} className="fs-1">
             {HomeHeadingData[count].Title}
           </h1>
-          <h2 style={{ color: "#379eff", fontSize: "2rem" }}>
+          <h2 className="fs-2" style={{ color: "#379eff" }}>
             {HomeHeadingData[count].SubTitle}
           </h2>
-          <div style={{ fontSize: "18px", color: "#081f46" }}>
+          <p className="fs-md-5 fs-sm-1" style={{ color: "#081f46" }}>
             {HomeHeadingData[count].Desc}
-          </div>
-          <div className="btn btn-primary mt-3 me-3">
+          </p>
+          <div className="btn btn-primary me-3">
             Buy Now <Icon icon="mdi:cart-outline" />
           </div>
-          <div className="btn btn-primary mt-3">
+          <div className="btn btn-primary">
             View Details <Icon icon="carbon:view" />
           </div>
         </div>
