@@ -1,9 +1,17 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Footer, Header } from "./components/SharedComponents";
+import AppRouts from "./routes";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <AppRouts />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
