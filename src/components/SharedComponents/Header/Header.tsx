@@ -7,11 +7,11 @@ const Header = () => {
       <div className="container">
         Morya Suppier
         <div className="ml-auto d-flex align-items-center">
-          <Link to="/button1" className="btn btn-primary  me-4">
+          <Link to="/" className="btn btn-primary  me-4">
             Home
           </Link>
-          <Link to="/button1" className="btn btn-secondary">
-            About
+          <Link to="/add" className="btn btn-secondary">
+            Add Product
           </Link>
         </div>
       </div>
